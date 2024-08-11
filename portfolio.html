@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app1.css" id="themeStylesheet">
+        <title>Portfolio</title>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    
+<div class = "page1">
+<body class = "portfolioBody">
+    <!-- Header Div -->
+    <div class = "portfolioHeader">
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    </div>
+    <!-- Header Div ends-->
+
+    <!-- Content Div -->
+    <div class = "portfolioContent">
+
+        <div class = "portfolioItem">
+        <h2 class = "portfolioTitle"> Circuit Graph</h2>
+        <a href="https://github.com/ohKodiak/CircuitGraph">
+            <img src="icons/github-icon-logo.png" alt="Project 1 Logo" width="50" height="50">
+            Scripts that take in verilog benchmark file for either synchronous or asynchronus circuits, 
+            and produces a json file represented the circuit graph for that circuit. Total shared takes in a circuit 
+            graph and creates a csv file with the gates that are shared with the locked key. Click to learn more. 
+        </a>
+        </div>
+
+
+        <div class = "portfolioItem">
+            <h2 class = "portfolioTitle"> FTP Server Scraper</h2>
+            <a href="https://github.com/ohKodiak/ftpserver-scraper">
+                <img src="icons/github-icon-logo.png" alt="Project 1 Logo" width="50" height="50">
+                Created a python script which uses selenium and a stack implentation of the depth first search algorithm to scrape ftp servers for netCDF files. Click to learn more. 
+            </a>
+        </div>
+
+
+
+        <div class = "portfolioItem">
+            <h2 class = "portfolioTitle"> File Cabinet</h2>
+            <a href="https://github.com/ohKodiak/FileCabinetProject">
+                <img src="icons/github-icon-logo.png" alt="Project 1 Logo" width="50" height="50">
+                This project was a three week development sprint completed in august of 2022. 
+                We used the MERN stack to complete the file cabinet themed note taking web app.
+                When you run the program, you press the open button on the home page to move to the folders, 
+                where you can add and delete folders. The folders store your categorized notes. Click to learn more.
+
+            </a>
+            </div>
+
+
+        <div class = "portfolioItem">
+            <h2 class = "portfolioTitle"> Lofi Canvas</h2>
+            <a href="https://github.com/aggie-coding-club/Browser-Extensions">
+                <img src="icons/github-icon-logo.png" alt="Project 1 Logo" width="50" height="50">
+                Worked to create a Chrome browser extension that presented users with the ability to enhance 
+                the functionality and aesthetic of their Canvas home page. Click to learn more. 
+            </a>
+        </div>
+
+
+        <div class = "portfolioItem">
+            <h2 class = "portfolioTitle"> Email Sender</h2>
+            <a href="https://github.com/ohKodiak/EmailSender">
+                <img src="icons/github-icon-logo.png" alt="Project 1 Logo" width="50" height="50">
+                Created a Python script that pulls details from a csv, then utilizes smtplib and ssl to create and send 
+                personalized emails to mailing lists of members and sponsors, increasing the efficiency of club communication 
+                and engagement. Click to learn more. 
+            </a>
+        </div>
+
+    </div>
+    <!-- Content Div Ends -->
+
+    <footer class = "portfolioFooter">
+        <a href = "index.html" class = "footerText"> Landing Page  </a>
+        <a href = "qualifications.html" class = "footerText"> Qualifications  </a>
+        <a href = "service.html" class = "footerText"> Service  </a>
+        <a href = "aiwork2.html" class = "footerText"> AI Work  </a>
+        <button class="portfolioThemeBtn" onclick="toggleStyleSheet()" >Switch Theme</button>
+
+    </footer>
+
+    <script src="scripts/toggle.js"></script>
+</body>
+</div>
+<!--Page one ends-->
+<div class = "page2">
+<div class="portfolioBody">
+    <div class="landingpageLeft">
+        <div class="landingpageHeader">
+            <h1>Portfolio</h1>
+
+        </div>
+        <!-- Header Div ends -->
+        <!-- Content Div-->
+        <div class="landingpageContent">
+            <div class="portfolioButtons">
+
+                <button class="portfolioSquareButton" data-link="link1" style = "font-size: 20px;">Project 1</button>
+                <button class="portfolioSquareButton" data-link="link2" style = "font-size: 20px;">Project 2</button>
+                <button class="portfolioSquareButton" data-link="link3" style = "font-size: 20px;">Project 3</button>
+                <button class="portfolioSquareButton" data-link="link4" style = "font-size: 20px;">Project 4</button>
+            </div>
+            
+            <!-- yapping Div-->
+            <div id="dynamicLink" class = "linkWords">
+                <a href="#" id="replaceableLink"> FTP Server Scraper - Created a python script which uses selenium and a stack implentation of the depth first search algorithm to scrape ftp servers for netCDF files. Click to learn more. 
+            </a>
+            </div>
+            <!-- yapping Div end-->
+           
+            <div class = "portfolioGithub">
+                <img src="icons/github-icon-white-5.jpg" alt="Github Logo" width="150" height="150">
+            </div>
+            
+        </div>
+        <!-- Content Div ends-->
+    </div>
+    <!-- Left Div ends-->
+
+    <!-- Right Div starts where nav bar goes-->
+    <div class="landingpageRight" >
+        <!-- Nav bar with boxes -->
+        <div class = "navbarBox" style = "background-color: #D7D7D7; color: #000000;">
+            <a href="index.html">Landing Page</a>
+        </div>
+        <div class = "navbarBox" style = "background-color: #8D8D8D; color: #000000;">
+            <a href="qualifications.html">Qualifications</a>
+        </div>
+        <div class = "navbarBox" style = "background-color: #535353; color: #D7D7D7;">
+            <a href="service.html">Service</a>
+        </div>
+        <div class = "navbarBox" style = "background-color: #141414; color: #D7D7D7;">
+            <a href="aiwork2.html">AI Work</a>
+        </div>
+        <div class = "landingpageButton">
+            <button class = "landingpageButton" onclick="toggleStyleSheet()">
+                Switch Themes
+            </button>
+        </div>
+    </div>
+
+    
+
+</div>
+<script src="scripts/toggle.js"></script>
+<script src="scripts/portfolioScript.js"></script>
+</div>
+</html>

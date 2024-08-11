@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications</title>
+    <link rel="stylesheet" href="app1.css" id="themeStylesheet"> 
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<div class = "page1">
+<body class = "quallypageBody">
+
+    <!-- Header Div -->
+    <div class = "quallypageHeader">
+    <h1>Qualifications</h1>
+    </div>
+
+    <!-- Header Div ends-->
+
+
+    <!-- Page content start-->
+    <div class = "quallypageContent">
+
+    <!--  Technical Div-->
+    <div class="quallypageTechnical">
+    <h2 class = "quallyTitles">Technical Skills</h2>
+    <ul>
+        <li>Languages: Python, JavaScript, Assembly, C++</li>
+        <li>Tools: MatPlotLib, React, Node, Express.js, MongoDB, Mongoose, Pipedream, Playwright, JSX, Electron, Selenium</li>
+        <li>Miscellaneous: LaTeX, Blender, Yosys, ABC, Git, Github, Linux, LTSpice, SLURM, Postgresql</li>
+        <li>Soft Skills: Problem Solving, Teamwork, Communication</li>
+
+    </ul>
+    </div>
+    <!-- Technical Div ends-->
+
+    <div class="quallypageInterest">
+    <h2 class = "quallyTitles">Areas of Interest</h2>
+    <ul>
+        <li>Hardware Security - I have been a part of the Secure and Trustworthy Hardware lab here and have enjoyed my work. </li>
+        <li>Firmware Development - I am currently working for a student startup where I am tasked with writing and reviewing firmware code for our prototype.</li>
+        <li>Language Learning Models - I have always had a love for English as a subject, and would love to combine it with computer science. </li>
+      
+    </ul>
+
+    <div class = "quallyImages">
+    <img src = "pictures/hill.JPG" height = "247" class = "quallyImage">
+    <img src = "pictures/rock.jpg" height = "247" class = "quallyImage">
+    </div>
+    </div>
+
+    </div>
+    <!-- Page content ends-->
+    <div class="quallypageResume">
+        <h2><a href="https://docs.google.com/document/d/1sGSlxGX9mVve7tX1sesGkt9JjJSwxh2bu6Uw1CoMcOw/edit?usp=sharing">Resume</a> <img src="icons/hyperlinkbetter.png" alt="Icon" width="40" height="40"></h2>
+    </div>
+
+
+    <footer class = "qualificationsFooter">
+        <a href = "index.html" class = "footerText"> Landing Page  </a>
+        <a href = "portfolio.html" class = "footerText"> Portfolio  </a>
+        <a href = "service.html" class = "footerText"> Service  </a>
+        <a href = "aiwork2.html" class = "footerText"> AI work  </a>
+        <button class="portfolioThemeBtn" onclick="toggleStyleSheet()">Switch Theme</button>
+
+    </footer>
+
+    <script src="scripts/toggle.js"></script>
+  
+</body>
+</div>
+<!--end of page one-->
+
+<div class="page2">
+    <div class="quallypageBody2">
+        <div class="landingpageLeft">
+            <div class="landingpageHeader">
+                <h1>Qualifications</h1>
+    
+            </div>
+            <!-- Header Div ends -->
+            <!-- Content Div-->
+            <div class="landingpageContent">
+    
+                
+           
+                <div class="portfolioButtons">
+                    <button class="portfolioSquareButton" data-link="link1" style = "font-size: 20px;">Skills </button>
+                    <button class="portfolioSquareButton" data-link="link2" style = "font-size: 20px;">Resume (Linked)</button>
+                    <button class="portfolioSquareButton" data-link="link3" style = "font-size: 20px;">Areas of Interest</button>
+                </div>
+                
+                <!-- yapping Div-->
+                <div id="dynamicLink" class = "linkWords">
+                    <p id="replaceableLink"> Skills - Languages: Python, JavaScript, Assembly, C++ ||| Tools: MatPlotLib, React, Node, Express.js, MongoDB, Mongoose, Pipedream, Playwright, JSX, Electron, Selenium ||| Miscellaneous: LaTeX, Blender, Yosys, ABC, Git, Github, Linux, LTSpice, SLURM, Postgresql ||| Soft Skills: Problem Solving, Teamwork, Communication
+                        <img src="pictures/IMG_2224.jpg" alt="Image description" style="height:200px; margin-top:20px; border-radius:10px;"/>
+                    </p>
+                </div>
+                <!-- yapping Div end-->
+               
+            </div>
+            <!-- Content Div ends-->
+        </div>
+        <!-- Left Div ends-->
+    
+        <!-- Right Div starts where nav bar goes-->
+        <div class="landingpageRight" >
+            <!-- Nav bar with boxes -->
+            <div class = "navbarBox" style = "background-color: #D7D7D7; color: #000000;">
+                <a href="index.html">Landing Page</a>
+            </div>
+            <div class = "navbarBox" style = "background-color: #8D8D8D; color: #000000;">
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div class = "navbarBox" style = "background-color: #535353; color: #D7D7D7;">
+                <a href="service.html">Service</a>
+            </div>
+            <div class = "navbarBox" style = "background-color: #141414; color: #D7D7D7;">
+                <a href="aiwork2.html">AI Work</a>
+            </div>
+            <div class = "landingpageButton">
+                <button class = "landingpageButton" onclick="toggleStyleSheet()">
+                    Switch Themes
+                </button>
+            </div>
+        </div>
+    
+        
+    
+    </div>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/qualificationsScript.js"></script>
+
+</div>
+
+
+</html>

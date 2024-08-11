@@ -1,0 +1,206 @@
+
+.page1  {
+    display: none;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+
+.landingpageBody   {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    height: 110vh;
+    font-family: 'Inknut Antiqua', sans-serif; 
+}
+
+.landingpageHeader  {
+    padding-top: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.landingpageContact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.landingpageImage   {
+    height: 280px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.landingpageContent {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbarBox  {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-size: 20px;
+    font-weight:300;
+}
+
+.landingpageRight   {
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+}
+
+.landingpageLeft    {
+    width: 80%;
+}
+
+.landingpagePara {
+    color: #FFFFFF;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+
+.landingpageButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+
+
+
+
+/*portfolio work */
+
+.portfolioBody   {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: 'Inknut Antiqua', sans-serif; 
+}
+
+.portfolioButtons {
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px 0; 
+}
+
+.portfolioSquareButton {
+    width: 200px; 
+    height: 150px;
+    margin: 0 10px; 
+    border-radius: 30px;
+    
+}
+
+.linkWords  {
+    color: #cdcdcd;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-shadow:
+        -.05px -.05px 0 white,
+         .05px -.05px 0 white,
+        -.05px  .05px 0 white,
+         .05px  .05px 0 white;
+    
+}
+
+.portfolioGithub    {
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    transition: transform 0.4s; 
+    
+}
+
+.portfolioGithub:hover {
+ 
+        transform: scale(1.25);
+    }
+
+
+/*qualifications*/
+.quallypageBody2   {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    height: 110vh;
+    font-family: 'Inknut Antiqua', sans-serif; 
+}
+
+/* service*/
+.servicepageBody2   {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    height: 110vh;
+    font-family: 'Inknut Antiqua', sans-serif; 
+}
+
+
+.servicelinkWords  {
+    color: #cdcdcd;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 300;
+
+    letter-spacing:4px;
+    word-spacing:4px;
+    line-height:20px;
+    white-space: pre-line;
+   
+    
+}
+
+servicelinkWords:link, servicelinkWords:visited, servicelinkWords:hover, servicelinkWords:active {
+    color: none;
+}
+
+.servicelinkWords a {
+    text-decoration: none; 
+    color: #cdcdcd; 
+}
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+
+        .box {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .box img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ezra Jeter</h1>
+        <p>Aggie Engineer</p>
+    </header>
+
+    <section>
+        <div class="box">
+            <img src="pictures/IMG_6405.JPG" alt="Profile Image">
+            <p>About Me:</p>
+            <p>I am a junior computer engineer. This is my personal webiste that I have created using chat gpt. The prompt I used is given.</p>
+        </div>
+
+        <div class="box">
+            <img src="pictures/DJI_0434.JPG" alt="Generator Prompt Image">
+            <p>Generator Prompt:</p>
+            <p>give me html and css code for a page of a personal website. include css text and image effects. make it black/grey monochromatic themed. add text boxes for paragraphs about me and my generator prompt. include 4 boxes for hyperlinks to other html pages</p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Explore more:</h2>
+        <div class="box"><a href="index.html">Landing Page</a></div>
+        <div class="box"><a href="qualifications.html">Qualifications</a></div>
+        <div class="box"><a href="portfolio.html">Portfolio</a></div>
+        <div class="box"><a href="service.html">Service</a></div>
+    </footer>
+
+</body>
+
+</html>
